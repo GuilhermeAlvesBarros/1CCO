@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    font-family: monospace;
+}
+
+.container{
+    display: inline-flex;
+    background: #ff8002;
+    height: 500px;
+    width: 500px;
+}
