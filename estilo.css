@@ -1,0 +1,9 @@
+    .titulo {color: red; font-family: 'Courier New', Courier, monospace;
+     font-weight: 300;
+}
+    .subtitulo {font-family: 'Courier New', Courier, monospace; color: red;
+}
+    .paragrafo {font-family: 'Courier New', Courier, monospace;
+}
+    .destaque {color: aqua;
+}
