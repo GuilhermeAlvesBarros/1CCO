@@ -80,7 +80,6 @@ body{
     color:rgb(61, 61, 61);
 }
 a:hover{
-    color: var(--color_green);
     transition: 500ms;
 }
 
@@ -101,7 +100,6 @@ a:hover{
 }
 
 .content .container{
-    border-radius: 20px;
     width:27%;
     height:100%;
     display: flex;
@@ -109,7 +107,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     padding:15px;
-    background-image: linear-gradient(to right, #7fdfec, #4cb1b5);
+    background-image: linear-gradient(to right, #94D57B, #aed040);
     margin-bottom: 8vh;
 }
 .content .container input{
@@ -149,4 +147,8 @@ a:hover{
 a{
     text-decoration: none;
     color:black;
+}
+
+.logo {
+    cursor: pointer;
 }
