@@ -5,14 +5,17 @@ body{
 }
 
 .header{
-    border: 3px solid aqua;
+    border-bottom: 3px solid aqua;
 }
 
-.header .conteiner{
-    border: 3px solid blue;
+.container {
     width: 80%;
     margin: auto;
     display: flex;
+    
+}
+
+.header .container{
     justify-content: space-between;
 
 }
@@ -22,22 +25,114 @@ body{
 }
 
 .header ul {
-    color: red;
+    color: rgb(255, 217, 0);
 }
 
 .titulo{
     color: aqua;
-    border: 3px solid red;
     width: fit-content;
+    font-weight: 500;
 }
 
 .navBar{
     color: white;
     list-style: none;
-    border: 3px solid green;
     display: flex;
     justify-content: space-evenly;
     width: 300px;
     padding: 0;
     align-items: center;
+}
+
+.banner{
+    background-image: url("imgs/bg-jelly-fish-para-home.png");
+    height: 500px;
+    color: white;
+    display: flex;
+}
+
+.banner .container p span {
+    font-weight: 1000;
+}
+
+.banner .container{
+    justify-content: center;
+    font-size: 32px;
+}
+.banner .container p {
+    width: 30%;
+}
+
+.social {
+    background-color: white;
+    display: flex;
+}
+
+.social .container .boxes .box img{
+    width: 170px;
+}
+
+.social .container .boxes {
+    display: flex;
+}
+
+.box {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    background-color: aqua;
+    height: 150px;
+    color: white;
+    display: flex;
+    font-size: 18px;
+}
+
+.footer .container{
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 217, 0);
+}
+
+.banner .container .card {
+    background-color: rgba(255, 255, 255, 0.877);
+    display: flex;
+    height: 400px;
+    width: 400px;
+    flex-direction: column;
+    color: palevioletred;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.card h1 {
+    font-size: 30px;
+}
+
+.card h4 {
+    font-size: 16px;
+}
+
+.card input {
+    border: palevioletred solid 2px;
+    padding: 10px;
+}
+
+.card button {
+    background-color: palevioletred;
+    margin-top: 25px;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-family: monospace;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
 }
